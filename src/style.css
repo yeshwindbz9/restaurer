@@ -1,0 +1,69 @@
+body {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 100;
+}
+
+nav {
+  display: flex; /* Enables Flexbox */
+  justify-content: space-around; /* Aligns items with space between */
+  margin: 2%;
+}
+
+#content-item {
+  display: flex; /* Enables Flexbox */
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center; /* Centers items horizontally */
+  padding: 20px; /* Padding around the content */
+  border-radius: 20px; /* Rounded corners for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 300px; /* Maximum width of the card */
+  margin: auto; /* Center the card on the page */
+  margin-bottom: 20px;
+}
+#content-item:hover {
+  background-color: #e0b030; /* Darker shade on hover */
+}
+#content-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+#title {
+  font-size: 28px; /* Title font size */
+  margin: 20px; /* Space below the title */
+}
+
+#subheading {
+  font-size: 16px; /* Subheading font size */
+  margin: 20px; /* Space below the subheading */
+}
+
+img {
+  width: 100%; /* Full width of the card */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space below the image */
+  border-radius: 20%;
+}
+
+#menuDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  font-family: "Pixelify Sans", sans-serif;
+  color: #000; /* Text color */
+  padding: 10px 20px; /* Padding inside the button */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+  text-transform: uppercase; /* Uppercase text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+button:hover {
+  background-color: #e0b030; /* Darker shade on hover */
+}
