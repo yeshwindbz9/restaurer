@@ -6,7 +6,7 @@ body {
 nav {
   display: flex; /* Enables Flexbox */
   justify-content: space-around; /* Aligns items with space between */
-  margin: 2%;
+  margin: 4%;
 }
 
 #content-item {
